@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  profiles: dev
+  application:
+    name: cs-dev
+---
+spring:
+  profiles: test
+  application:
+    name: cs-test
+---
+spring:
+  profiles: abcd
+  application:
+    name: cs-abcd
